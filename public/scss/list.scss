@@ -1,0 +1,148 @@
+section {
+    .banner {
+        position: relative;
+        margin: 121px 0 15px;
+        .bigbanner {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+        .smallbanner{
+            display: none;
+        }
+        span{
+            position: absolute;
+            left: 50%;
+        }
+        h3 {
+            position: absolute;
+            left: 50%;
+            margin-left: -185px;
+            font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+            font-size: 56px;
+            font-weight: normal;
+            color: #FFFFFF;
+            letter-spacing: 2px;
+            line-height: 48px;
+            padding: 143px 0 21px;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    .product-wrap {
+        position: relative;
+        padding: 0 15px;
+        .product-show {
+            position: relative;
+            width: 100%;
+            background: #E7E7E7;
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-bottom: 1px solid #fff;
+            box-sizing: border-box;
+            text-align: center;
+            overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width: 1023px) {
+    section {
+        .banner {
+            margin: 70px 0  0 0;
+        }
+        .product-wrap{
+            padding: 0;
+            >i{
+                top:-24px;
+            }
+            .pro-bigPic{
+                >img{
+                    height: auto!important;
+                    width: 300px!important;
+                    margin-top: -20px!important;
+                }
+            }
+            .gtz{
+                
+            }
+            .pro-smallPic{
+                padding: 30px 30px 20px;
+                >p{
+                    font-size: 16px!important;
+                }
+                >i{
+                    display: none!important;
+                }
+                .pro-more{
+                    font-size: 12px!important;
+                    margin-bottom: 20px!important;
+                }
+            }
+            .pro-content{
+                >h2{
+                    font-size: 24px!important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        .banner {
+            margin: 50px 0  0 0;
+            .bigbanner {
+                display: none;
+            }
+            .smallbanner{
+                display: block;
+                height: auto;
+                width: 100%;
+            }
+        }
+        .product-wrap{
+            padding: 0;
+            >i{
+                top:-24px;
+            }
+            .pro-bigPic{
+                >img{
+                    height: auto!important;
+                    width: 300px!important;
+                    margin-top: -20px!important;
+                }
+            }
+            .gtz{
+                
+            }
+            .pro-smallPic{
+                display:none!important;
+            }
+            .pro-content{
+                >h2{
+                    font-size: 18px!important;
+                }
+            }
+            .video-copy{
+                width: 128px!important;
+                height: 269px!important;
+                .video-title{
+                    font-size: 14px!important;
+                }
+                >i{
+                    font-size: 12px!important;
+                }
+                >a{
+                    font-size: 12px!important;
+                }
+            }
+            .gucci-story{
+                >p{
+                    font-size: 18px;
+                    padding: 42px 0;
+                }
+            }
+        }
+    }
+}

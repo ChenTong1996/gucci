@@ -1,6 +1,6 @@
+
 section .banner {
-  position: relative;
-  margin: 121px 0 15px; }
+  position: relative;}
   section .banner .bigbanner {
     display: block;
     height: 100%;
@@ -339,8 +339,6 @@ section .product-wrap {
         color: #ffffff; }
 
 @media screen and (max-width: 1023px) {
-  section .banner {
-    margin: 70px 0  0 0; }
   section .product-wrap {
     padding: 0; }
     section .product-wrap > i {
@@ -361,8 +359,6 @@ section .product-wrap {
     section .product-wrap .pro-content > h2 {
       font-size: 24px !important; } }
 @media screen and (max-width: 767px) {
-  section .banner {
-    margin: 50px 0  0 0; }
     section .banner .bigbanner {
       display: none; }
     section .banner .smallbanner {
